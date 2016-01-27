@@ -1,0 +1,20 @@
+<style>
+*{
+	color:red;
+}
+.males{
+	color:limegreen;
+	}
+	.vowel{
+		color:yellow;
+	}
+	#kevin{
+		color:brown;
+	}
+	#angela{
+		color:purple;
+	}
+	.threeletters{
+		colo:blue;
+	}
+</style>

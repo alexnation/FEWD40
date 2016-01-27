@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Food Blog</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+	<h1>The Best Chocolate Chip Cookies</h1>
+	<img src="http://images.edge-generalmills.com/00bf209f-08c8-455a-a930-76a617a45fa1.jpg">
+	</header>
+		<p><em>Recipe by: My Grandma</em></p>
+	<h2>Prep Time</h2>
+		<p>45 Min</p>
+	<h2>Ingredients</h2>
+		<ul>
+			<li>1 1/2 cup (3 sticks) butter, softened</li>
+			<li>1 cup brown sugar</li>
+			<li>1 cup granulated sugar</li>
+			<li>1 Tbl vanilla instant pudding powder</li>
+			<li>2 Tbl milk</li>
+			<li>2 Tbl vanilla extract</li>
+			<li>2 eggs</li>
+			<li>4 cups all purpose flour</li>
+			<li>2 tsp baking soda</li>
+			<li>1/2 tsp salt</li>
+			<li>4 cups chocolate chips</li>
+			<li>1 cup chopped walnuts or pecans (optional)</li>
+		</ul>
+</body>
+</html>
+
+		
+
+			
