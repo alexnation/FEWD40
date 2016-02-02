@@ -17,7 +17,14 @@ Developer @GA in NYC
   -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
   box-sizing: border-box; /* IE */
 }
-
+header {
+      text-align: center;
+      background: url("fewd40/lesson3/project/solution_code/images/header_bg.jpg");
+      background-size: cover;
+      background-position: center;
+      color: black;
+      font-family: "Century Gothic";
+    }
 /* Clear fix hack */
 .clearfix:after {
   content: ".";
