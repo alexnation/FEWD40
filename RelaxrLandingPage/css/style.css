@@ -54,10 +54,6 @@ body {
   font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
-a {
-  text-decoration: none;
-}
-
 
 /******************************************
 /* LAYOUT
@@ -76,7 +72,7 @@ a {
 
 header {
   height: 700px;
-  background: url("") no-repeat top center #131e27;
+  background: url("../images/header_bg.jpg")no-repeat top center #131e27;
   padding-top: 32px;
   font-style: bold;
 }
@@ -88,7 +84,7 @@ header h1 {
   font-size: 48px;
   text-align: left;
   color: #fff;
-  margin: 120px 0 90px;
+  margin: 10px 90px;
   font-weight: 600;
 }
 
@@ -99,9 +95,39 @@ header h2 {
   margin: 120px 0 90px;
   font-weight: 600;
 }
-.button {
+#signupnow {
+  height: 100px;
   background-color: yellow;
   font-color: white;
+  font-weight: 800;
+  padding: 12px 0;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  padding-top: 30px;
+}
+
+.button2 {
+  background: navy;
+  color: white;
+  padding: 10px 30px 10px 30px;
+
+}
+
+.button {
+  background: yellow;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+#button2 {  
+  font-color: black;
   border-radius: 5px;
   font-weight: 800;
   padding: 12px 0;
@@ -110,7 +136,9 @@ header h2 {
   text-align: center;
   display: block;
   margin: 0 auto;
+
 }
+
 .yellow {
   background: #f9e42e;
   color: #033048;
@@ -120,52 +148,85 @@ header h2 {
   color: #fff;
   font-size: 24px;
 }
-#benefits {
-  padding: 100px 0 80px;
+.benefits {
+  padding-top: 100px; 
+  padding-left: 0px; 
+  padding-bottom: 0px;
+  
 }
 
 h3 {
   color: #033048;
   font-size: 40px;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin: 10px 90px;
 }
 
-#benefits p, #benefits ul li {
-  width: 600px;
+h4 {
+  padding:40px;
 }
-#benefits ul li {
+.benefits p, .benefits ul li {
+  width: 600px;
+
+}
+.benefits ul li {
   list-style: circle;
-  margin: 30px 0 0 80px;
+  margin-top: 0px; 
+  margin-left:0 0; 
+  margin-left:80px;
 }
 #testimonial {
   background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
-  padding: 70px 0 70px;
   color: #fff;
+  padding: 70px 0 70px;
 }
+
+.testimonial {
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+}
+
+.testimonial p {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  margin-top: 0px;
+  padding-bottom: 50px;
+}
+
 blockquote {
   font-size: 36px;
   font-weight: 300;
   font-style: italic;
   text-align: center;
-  width: 580px;
-  margin: 0 auto;
+  color: white;
+  margin-top: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  
 }
+
 blockquote span {
   font-weight: 600;
   display: block;
-  font-style: bold;
+  font-style: normal;
+  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  
 }
+
 aside {
   background: #f9e42e;
   padding: 30px;
   text-align: center
 }
+
 footer {
   background: #121212;
   padding: 65px 0 45px;
   text-align: center;
-  
+
 }
 footer .logo {
   color: #f9e42e;
@@ -177,8 +238,9 @@ footer ul li {
   margin: 0 26px 75px;
 }
 footer p {
-  font-size: 18px;
-  color: #fff;
+  font-size: 40px;
+  color: yellow;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 </style>
