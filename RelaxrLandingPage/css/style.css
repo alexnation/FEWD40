@@ -233,6 +233,19 @@ footer {
   text-align: center;
 
 }
+
+.sb a.twitter {
+  background-image: url(../images/twitter.png.webloc);
+}
+
+.sb a.facebook {
+  background-image: url(../images/facebook.png.webloc);
+}
+
+#relaxr p {
+  font-size: 50px;
+}
+
 footer .logo {
   color: #f9e42e;
   margin-bottom: 68px;
