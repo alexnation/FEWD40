@@ -72,9 +72,10 @@ body {
 
 header {
   height: 700px;
-  background: url("../images/header_bg.jpg")no-repeat top center #131e27;
+  background: url("../images/header_bg.jpg")no-repeat center center fixed;
   padding-top: 32px;
   font-style: bold;
+  background-size: cover;
 }
 
 header .logo {
@@ -176,13 +177,17 @@ h4 {
   margin-left:80px;
 }
 #testimonial {
-  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background: url(../images/testimonial_bg.jpg) no-repeat center center fixed #071324;
   color: #fff;
   padding: 70px 0 70px;
+  background-size: cover;
+
 }
 
 .testimonial {
-  background: url(../images/testimonial_bg.jpg) no-repeat top center #071324;
+  background: url(../images/testimonial_bg.jpg) no-repeat center center fixed #071324;
+  background-size: cover;
+
 }
 
 .testimonial p {
