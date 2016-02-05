@@ -234,14 +234,9 @@ footer {
 
 }
 
-.sb a.twitter {
-  background-image: url(../images/twitter.png.webloc);
+h5 {
+  color: white;
 }
-
-.sb a.facebook {
-  background-image: url(../images/facebook.png.webloc);
-}
-
 #relaxr p {
   font-size: 50px;
 }
