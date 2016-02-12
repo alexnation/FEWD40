@@ -64,14 +64,279 @@ body {
 }
 
 header {
-  font: Open Sans;
+  background-color: navy;
+  color: white;
+  float: left;
+  width: 100%;
+}
+
+section {
+  float: left;
+  width: 60%;
+  /*background: green; */
+}
+
+aside {
+  float: left;
+  width: 40%;
+  /*background: pink;*/
+}
+
+figure {
 
 }
 
 footer {
+  background: #121212;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  float: left;
+  width: 100%;
 
+}
+
+h1 {
+  color:white;
+  font-weight: bold;
+  padding-top: 250px;
+  display: inline;
+  text-align: middle;
+  margin: 20px 20px 20px 20px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: #f0efef;
+}
+
+nav {
+  color: yellow;
+  text-align: right;
+  margin: 20px;
+
+}
+
+h2, h5 {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+h3, h6 {
+  color: #033048;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-weight: lighter;
+
+}
+
+#nav1 {
+  display: inline;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav2 {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav3 {
+  display: inline;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav4 {
+  display: inline;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#nav5 {
+  display: inline;
+  padding: 10px;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+#image1 {
+  background-image: url(../images/blog_photo1.jpg); 
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
+#image {
+  background-image: url(../images/blog_photo2.jpg); 
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
+#image3 {
+  background-image: url(../images/ad-unit.png); 
+  background-repeat: no-repeat;
+  height: 200px;
+  position: relative;
+}
+
+.learnmore {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #033048;
+}
+
+.about {
+  font-size: 24px;
+  font-weight: lighter;
+  list-style: none;
+  color: #033048;
+  font-family: "Open Sans", sans-serif;
+}
+
+/*.L {
+  font-size: 50px;
+}*/
+/*article {
+
+  display: block;
+  width: 300px;
+  float: right;
+  margin: 100px 30px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  opacity: .9;
+  border-style: outset;
+  line-height: 30px;
+
+}*/
+
+
+#grayline {
+  background-color: gray;
+  height: 2px;
+}
+
+#readmore {
+  text-align: right;
+}
+
+
+.title {
+  color: #033048;
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 24px;
+  font-weight: lighter;
+  list-style: none;
+  color: #033048;
+  font-family: "Open Sans", sans-serif;
+}
+
+#readmore {
+  font-size: 24px;
+  font-weight: semi-bold;
+  color: #033048;
+  padding-bottom: 20px;
+}
+
+#profile {
+
+  width: 300px;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  border-style: outset;
+  line-height: 30px;
+  
+}
+
+#about {
+
+  float: right;
+  clear: both;
+  width: 300px;
+  margin: 0px 0px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  border-style: outset;
+  line-height: 30px;
+}
+
+#signupnow {
+  height: 100px;
+  background-color: yellow;
+  float: left;
+  width: 100%;
+  font-color: white;
+  font-weight: 800;
+  padding: 12px 0;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.button2 {
+  background: navy;
+  color: white;
+  padding: 10px 30px 10px 30px;
+
+}
+
+#relaxr p {
+  font-size: 50px;
+}
+
+#copyright {
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+a {
+  padding: 10px 10px 10px 10px;
+  clear: both;
+
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 40px;
+  color: yellow;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
