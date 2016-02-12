@@ -66,6 +66,7 @@ body {
 header {
   background-color: navy;
   color: white;
+<<<<<<< Updated upstream
   float: left;
   width: 100%;
 }
@@ -83,6 +84,165 @@ aside {
 }
 
 figure {
+=======
+}
+
+h1 {
+  color:white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+body {
+  background-color: #f0efef;
+}
+
+nav {
+  color: yellow;
+  text-align: right;
+  margin: 20px;
+
+}
+
+#nav1 {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#nav2 {
+  display: inline;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#nav3 {
+  display: inline;
+  padding: 10px;
+}
+
+#nav4 {
+  display: inline;
+  padding: 10px;
+}
+
+#nav5 {
+  display: inline;
+  padding: 10px;
+}
+
+h2, h5 {
+  color: #033048;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+#image1 {
+  background-image: url(../images/blog_photo1.jpg); 
+  background-repeat: no-repeat;
+  height: 250px;
+  position: relative;
+}
+
+article {
+
+  display: block;
+  width: 300px;
+  float: right;
+  margin: 100px 30px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  opacity: .9;
+  border-style: outset;
+  line-height: 30px;
+
+}
+
+figure {
+  background-position: top;
+  float: right;
+  clear: both;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+#image3 {
+    background-image: url(../images/ad_unit.png); 
+    /*height: 250px;
+    position: relative;
+*/
+}
+
+#grayline {
+  background-color: gray;
+  height: 2px;
+}
+
+#readmore {
+  text-align: right;
+}
+
+
+.title {
+  font-weight: 500;
+  font-size: 32px;
+  margin: 10px;
+  font-family: "Open Sans", serif;
+}
+
+ul {
+  font-size: 24px;
+  font-weight: light;
+  list-style: none;
+}
+
+#profile {
+
+  width: 300px;
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  border-style: outset;
+  line-height: 30px;
+  
+}
+
+#about {
+
+  float: right;
+  clear: both;
+  width: 300px;
+  margin: 0px 0px 0px 0px;
+  padding: 25px;
+  font-size: 25px;
+  background-color: white;
+  border-style: outset;
+  line-height: 30px;
+}
+
+#signupnow {
+  height: 100px;
+  background-color: yellow;
+  font-color: white;
+  font-weight: 800;
+  padding: 12px 0;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  padding-top: 30px;
+}
+
+.button2 {
+  background: navy;
+  color: white;
+  padding: 10px 30px 10px 30px;
+>>>>>>> Stashed changes
 
 }
 
@@ -90,6 +250,7 @@ footer {
   background: #121212;
   padding: 10px 10px 10px 10px;
   text-align: center;
+<<<<<<< Updated upstream
   float: left;
   width: 100%;
 
@@ -125,6 +286,23 @@ nav {
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
 }
+=======
+
+}
+
+#relaxr p {
+  font-size: 50px;
+}
+
+#copyright {
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+a {
+  padding: 10px 10px 10px 10px;
+  clear: both;
+>>>>>>> Stashed changes
 
 #nav2 {
   display: inline;
@@ -332,6 +510,21 @@ footer p {
   font-weight: 600;
   margin-bottom: 20px;
 }
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 40px;
+  color: yellow;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+</style>
 
 /******************************************
 /* ADDITIONAL STYLES
