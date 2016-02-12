@@ -66,6 +66,33 @@ body {
 header {
   background-color: navy;
   color: white;
+  float: left;
+  width: 100%;
+}
+
+section {
+  float: left;
+  width: 60%;
+  /*background: green; */
+}
+
+aside {
+  float: left;
+  width: 40%;
+  /*background: pink;*/
+}
+
+figure {
+
+}
+
+footer {
+  background: #121212;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  float: left;
+  width: 100%;
+
 }
 
 h1 {
@@ -151,15 +178,30 @@ h2, h5 {
 }
 
 #image3 {
-  background-image: url(../images/ad_unit.png); 
+  background-image: url(../images/ad-unit.png); 
   background-repeat: no-repeat;
+  height: 200px;
   position: relative;
+}
+
+.learnmore {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #033048;
+}
+
+.about {
+  font-size: 24px;
+  font-weight: lighter;
+  list-style: none;
+  color: #033048;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*.L {
   font-size: 50px;
 }*/
-article {
+/*article {
 
   display: block;
   width: 300px;
@@ -172,31 +214,15 @@ article {
   border-style: outset;
   line-height: 30px;
 
-}
+}*/
 
 h3, h6 {
   color: #033048;
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
   text-align: left;
-  width: 750px;
   font-weight: lighter;
 
-}
-figure {
-  background-position: top;
-  float: right;
-  clear: both;
-  margin: 10px 10px 10px 10px;
-  padding: 10px 10px 10px 10px;
-}
-
-
-#image3 {
-    background-image: url(../images/ad_unit.png); 
-    /*height: 250px;
-    position: relative;
-*/
 }
 
 #grayline {
@@ -261,12 +287,13 @@ ul {
 #signupnow {
   height: 100px;
   background-color: yellow;
+  float: left;
+  width: 100%;
   font-color: white;
   font-weight: 800;
   padding: 12px 0;
   font-size: 28px;
   text-align: center;
-  display: block;
   padding-top: 30px;
 }
 
@@ -274,13 +301,6 @@ ul {
   background: navy;
   color: white;
   padding: 10px 30px 10px 30px;
-
-}
-
-footer {
-  background: #121212;
-  padding: 10px 10px 10px 10px;
-  text-align: center;
 
 }
 
@@ -312,8 +332,9 @@ footer p {
   font-weight: 600;
   margin-bottom: 20px;
 }
-</style>
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
