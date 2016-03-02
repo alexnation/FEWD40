@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     	<meta charset="utf-8">
     	<meta name="description" content="Your description goes here">
     	<meta name="keywords" content="one, two, three">
@@ -10,7 +11,7 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	<body>
 		<header>
@@ -19,12 +20,15 @@
 				<p>Your Cities, Your Pix</p>
 			</div>
 		</header>
+			<div id = "drop-down">
 			<div class="container">
 				<form>
-					<select id="city-type">
-						<option>Select a City</option>
+			
+			<select id="city-type" name = "city-type">
+			<option>Select a City</option>
 					</select>
 				</form>
+			</div>	
 			</div>
 	</body>
 </html>
