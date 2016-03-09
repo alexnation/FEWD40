@@ -75,7 +75,7 @@ header {
   background: url("../images/header_bg.jpg")no-repeat center center fixed;
   padding-top: 32px;
   font-style: bold;
-  background-size: cover;
+  background-size: cover;`
 }
 
 header .logo {
