@@ -21,6 +21,7 @@ nav {
 
 }
 
+
 #nav1 {
 	display: inline;
 	text-transform: uppercase;
@@ -177,4 +178,18 @@ button {
 
 #footer {
 	padding: 10px;
+}
+
+@media (max-width: 768px) {
+	nav {
+		display: none;
+		}
+	article {
+		display: none;
+			}
+	figure {
+		float: none;
+		width: 100%;
+
+			}
 }

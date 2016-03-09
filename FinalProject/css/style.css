@@ -18,29 +18,8 @@ Developer @GA in NYC
 }
 
 header {
-/*  background-image: url(../images/scrollbg.jpg); 
-*/  background-color: #f0efef;
-  position: relative;
-  padding: 25px 0;
-  overflow: hidden;
-
-}
-header .logo {
-  color: #fff;
-  float: left;
-}
-
-header nav {
-  float: right;
-  margin-top: 15px;
-}
-header nav ul li {
-  display: inline-block;
-  margin: 0 0 0 40px;
-  font-size: 24px;
-}
-header nav ul li a {
-  color: #f9e42e;
+  background-color: black;
+  padding: 5px;
 }
 
 body {
@@ -64,23 +43,21 @@ a {
 }
 
 h1 {
-  font: 75px 'Pacifico', Helvetica, sans-serif;
-  position: center;
-  color: #2b2b2b;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  font: 30px 'Pacifico', Helvetica, sans-serif;
+  text-align: left;
+  color: white;
+/*  display: inline;
+*/  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
 
-h2 {
-  font-weight: 600;
-  font-size: 40px;
+
+h5 {
+  font: 25px 'Pacifico', Helvetica, sans-serif;
+  color: black;
+  font-size: 30px;
   line-height: 1.3;
   margin-bottom: 30px;
   text-align: center;
-}
-
-h3 {
-  font: 25px 'Pacifico', Helvetica, sans-serif;
-  color: #2b2b2b;
   text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
 
@@ -91,48 +68,19 @@ h4 {
   float: right;
 }
 
-footer {
-  background: #121212;
-  padding: 65px 0 45px;
-  text-align: center;
-}
-footer .logo {
-  color: #f9e42e;
-  margin-bottom: 68px;
-}
-footer ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0 26px 75px;
-}
-footer p {
-  font-size: 18px;
-  color: #fff;
-  font-weight: 600;
+nav {
+  color: white;
+  text-align: right;
+  margin: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  line-height: 0;
-  height: 0;
+nav div {
+  display: inline;
+  padding: 20px;
 }
 
-.clear {
-  clear: both;
-}
-
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
 
 /******************************************
 /* BASE STYLES
@@ -144,29 +92,85 @@ footer p {
 /*******************************************/
 
 /* Center the container */
-.container {
-  width: 960px;
+
+#whiteline {
+  background-color: white;
+  height: 4px;
+}
+
+#container {
+  background: url("../images/friendswalking.jpg");
+  width: cover;
+  margin: auto;
+  padding-top: 5em;
+  padding-top: 32px;
+  background-size: cover;
+  height: 1000px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+#girlboss {
+  font-weight: 600;
+  color: black;
+  font-size: 60px;
   margin: 0 auto;
+  line-height: 1.3;
+  text-align: center;
+  width: 1000px;
+  height: 250px;
+  background-color: white;
+  opacity: .7;
+  border-style: outset;
+  position: absolute;
+  left: 200px;
 }
 
-#notime {
-  display: inline-block;
+#i-have {
+  color: #6b6b6c;
+  font-size: 38px;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 0px 30px;
+  width: 680px;
+  margin-right: 24px;
+  font-family: helvetica, arial, sans-serif;
+  height: 72px;
+  line-height: 74px;
+  position: absolute;
+  box-shadow: #111 0 0 20px;
+  left: 200px;
   float: left;
-  width: 30%;
-
 }
 
-#purpose {
-  width: 500px;
+#submit-btn:hover {
+  background: #fff600;
+}
+#submit-btn {
+  background: white;
+  color: black;
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid #111;
+  text-align: center;
   display: inline-block;
-  margin: 10px 10px 10px 20px;
-  vertical-align: top;
-  float: right;
+  width: 250px;
+  height: 72px;
+  line-height: 74px;
+  vertical-align: middle;
+  box-shadow: #111 0 0 50px;
+  font-family: helvetica, arial, sans-serif;
+  cursor: pointer;
 }
 
+/*
 #social {
-/*  width: 700px;
-*/  display: inline-block;
+  
+  display: inline-block;
   margin-right: 20px;
   vertical-align: middle;
   float: left;
@@ -175,7 +179,24 @@ footer p {
 #keepintouch {
   float: right;
   display: inline-block;
-}
+}*/
+/*
+#email-address {
+  color: #6b6b6c;
+  font-size: 38px;
+  background: #fff;
+  border: 1px solid #111;
+  padding: 0px 30px;
+  display: inline-block;
+  width: 680px;
+  margin-right: 24px;
+  font-family: helvetica, arial, sans-serif;
+  height: 72px;
+  line-height: 74px;
+  vertical-align: middle;
+  box-shadow: #111 0 0 20px;
+}*/
+/**/
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
