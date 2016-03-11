@@ -168,15 +168,16 @@ blockquote span {
   margin-top: 80px;
 }
 #posts {
-  width: 700px;
+  width: 50%;
   display: inline-block;
-  margin-right: 20px;
-  vertical-align: top;
+/*  margin-right: 20px;
+*/  vertical-align: top;
 }
 #sidebar {
-  width: 240px;
+  width: 30%;
   display: inline-block;
   vertical-align: top;
+  float: right;
 }
 .post {
   border-bottom: 1px solid #043049;
@@ -296,7 +297,7 @@ footer p {
     
  }
 
-#benefits {
+  #benefits {
 
     position: relative;
     display: table;
@@ -305,11 +306,11 @@ footer p {
 
 }
 
-#sidebar {
+  #sidebar {
     display: none;
 }
 
-.assistant {  
+  .assistant {  
   position: relative;
   font-size: .8em;
   display: table;
@@ -317,15 +318,8 @@ footer p {
 
 }
 
-#posts {
-  position: relative;
-  font-size: .8em;
-  display: table;
-  width: 100%;
 
-}
-
-.container {
+  .container {
     
     position: relative;
     display: table;
@@ -333,9 +327,23 @@ footer p {
     width: 100%;
 
       }
+
+
+  #posts {
+  background-size: contain;
+  width: 80%
+  height: auto;
 }
 
-#amanda {
+  img {
+
+  /*position: relative;
+  display: table;*/
+  max-width: 80%;
+
+}
+
+  #amanda {
   font-size: .8em;
   display: table;
   position: relative;
@@ -345,16 +353,6 @@ footer p {
 }
 
 
-/*#testimonial {
-
-    float: left;
-    position: relative;
-    display: table;*/
-   /* font-size: 1.125em;
-    width: 100%;*/
-
-
-  
 
 
 
