@@ -12,9 +12,10 @@ for(var i = 0; i < options.length; i++) {
     // console.log(options[i] + " hello there ")
 }
 
-$('#drop-down').change(function(){
+$('#drop-down').click(function(){
 		event.preventDefault();
-		
+		console.log("hello how are you")
+
 		 var input = $('#i-have').val().toLowerCase();
 		 console.log("hello it's me");
 
