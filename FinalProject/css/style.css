@@ -194,7 +194,8 @@ a {
   margin: 175px;
 }
 
-#i-have {
+/*#i-have*/
+select {
   color: #6b6b6c;
   font-size: 38px;
   background: #fff;
@@ -207,8 +208,11 @@ a {
   line-height: 74px;
   position: absolute;
   box-shadow: #111 0 0 20px;
-  left: 200px;
-  float: left;
+  margin: 0 auto;
+  text-align: center;
+  left: 0;
+  right: 0;
+ /* float: left;*/
 }
 
 #submit-btn:hover {
@@ -231,7 +235,7 @@ a {
   vertical-align: middle;
   box-shadow: #111 0 0 50px;
   font-family: helvetica, arial, sans-serif;
-  cursor: pointer;
+ /* cursor: pointer;*/
 }
 
 #hair2 {
