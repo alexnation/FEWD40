@@ -1,72 +1,54 @@
 $(document).ready(function() {
 
+$(".learnmore").click(function() {
+	event.preventDefault();
+$("#learnmoretext").slideDown();
+$(".learnmore").hide();
+});
+
 var options = ["Hair & Makeup", "Apparel & Accessories", "Fitness & Nutrition", "Getting Ahead"];
 
 var sel = document.getElementById('i-have');
+
 
 for(var i = 0; i < options.length; i++) {
     var opt = document.createElement('option');
     opt.innerHTML = options[i];
     opt.value = options[i];
-    sel.appendChild(opt);
+    // sel.appendChild(opt);
     // console.log(options[i] + " hello there ")
 }
 
 $('#drop-down').click(function(){
 		event.preventDefault();
-		console.log("hello how are you")
+		console.log("hello how are you");
 
-		 var input = $('#i-have').val().toLowerCase();
-		 console.log("hello it's me");
+		function SubmitFrm(){
+        var Searchtxt = document.getElementById('i-have').value;
+        window.location = "www.google.com" + i-have;
+    }
 
-		if (input == "Hair & Makeup") {
-			$('body').css('background-image','url(images/nyc.jpg)');
-		}
-
-	 	if (input == "Apparel & Accessories"){
-			$('body').css('background-image','url(images/sf.jpg)');
-		}
-		
-		if (input == "Fitness & Nutrition"){
-			$('body').css('background-image','url(images/la.jpg)');
-		}
-		
-		if (input == "Getting Ahead"){
-			$('body').css('background-image','url(images/austin.jpg)');
-		}
-		
-		else {
-			console.log("result not found");
-		}
-
+});
 
 });
 
 
-// $(".hair").click(function(event){
-// 	event.preventDefault();
-// });
+		// if (input == "Hair & Makeup") {
+		// 	$('body').css('background-image','url(images/louboutins.jpg)');
+		// }
 
-// console.log("Hello it's me")
-
-// $(".readmore").click(function(event) {
-// 	event.preventDefault();
-// $(".readless").slideDown();
-// $(".readless").show();
-// $(".readmore").hide();
-// });
-
-// $(".readless").click(function() {
-// 	event.preventDefault();
-// $(".readless").slideUp();
-// $(".readmore").show();
-// $(".readless").hide();
-// });
-
-// $(".learnmore").click(function() {
-// 	event.preventDefault();
-// $("#learnmoretext").slideDown();
-// $(".learnmore").hide();
-// });
-
-});
+	 // 	if (input == "Apparel & Accessories"){
+		// 	$('body').css('background-image','url(images/sf.jpg)');
+		// }
+		
+		// if (input == "Fitness & Nutrition"){
+		// 	$('body').css('background-image','url(images/la.jpg)');
+		// }
+		
+		// if (input == "Getting Ahead"){
+		// 	$('body').css('background-image','url(images/austin.jpg)');
+		// }
+		
+		// else {
+		// 	console.log("result not found");
+		// }
