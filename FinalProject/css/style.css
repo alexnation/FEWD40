@@ -38,9 +38,6 @@ article {
   float: left;
 }
 
-a {
-  text-decoration: none;
-}
 
 h1 {
   padding-top: 10px;
@@ -88,10 +85,11 @@ h6 {
 }
 
 h7 {
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
   font: 40px 'Rochester', cursive;
   text-align: left;
-  color: black;
+  color: white;
 /*  display: inline;
 */  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
 }
@@ -111,8 +109,9 @@ nav div {
 }
 
 a {
-  color: white;
+  color: gray;
 }
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -123,6 +122,19 @@ a {
 /*******************************************/
 
 /* Center the container */
+
+#hairmakeup, #fitnessnutrition, #apparelaccessories, #getahead{
+font: black;
+display: none; 
+width: 50%; 
+height: 50%; 
+position: absolute;
+
+background-color: #c2c2c2;
+opacity: .7;
+left: 60%; 
+top: 60%;
+}
 
 #whiteline {
   background-color: white;
@@ -144,11 +156,12 @@ a {
 }
 
 #container2 {
-  background: url("../images/hair.jpg"); 
-  width: cover;
+  background-image: url("../images/hair.jpg"); 
   margin: auto;
   padding-top: 40px;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 500px;
   background-color: #f0efef;
   position: relative;
@@ -156,13 +169,14 @@ a {
   overflow: hidden;
 
 }
-
+/*hair styling*/
 #container3 {
-  background: url("../images/louboutins.jpg"); 
-  width: cover;
+  background-image: url("../images/hair2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   margin: auto;
   padding-top: 40px;
-  background-size: cover;
   height: 500px;
   background-color: #f0efef;
   position: relative;
@@ -170,6 +184,139 @@ a {
   overflow: hidden;
 
 }
+/*hair styling*/
+#container4 {
+  background-image: url("../images/makeup.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+/*apparel styling*/
+#container5 {
+  background-image: url("../images/apparel.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+#container6 {
+  background-image: url("../images/louboutins.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+#container7 {
+  background-image: url("../images/jewelry.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+/*fitness styling*/
+#container8 {
+  background-image: url("../images/TIU.png"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+#container9 {
+  background-image: url("../images/yoga.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;  
+  background-size: cover;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+#container10 {
+  background-image: url("../images/ramen.jpg"); 
+  /*width: contain;*/
+  width: cover;
+  margin: auto;
+  padding-top: 40px;
+  background-size: contain;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+#container11 {
+  background-image: url("../images/books.jpg"); 
+  background-size: cover;
+  width: cover;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+#container12 {
+  background-image: url("../images/ted.jpg"); 
+  background-size: cover;
+  width: cover;
+  margin: auto;
+  padding-top: 40px;
+  height: 500px;
+  background-color: #f0efef;
+  position: relative;
+  padding: 25px 0;
+  overflow: hidden;
+
+}
+
+/*getahead styling*/
 
 #girlboss {
   padding-top: 40px;
@@ -240,9 +387,9 @@ select {
 
 #hair2 {
   color: black;
-  font: 30px;
-  padding-top: 40px;
-  font-weight: 300;
+  font: 25px;
+  font-weight: bold;
+  padding-top: 20px;
   color: black;
   margin: 0 auto;
   line-height: 1.3;
@@ -254,7 +401,11 @@ select {
   border-style: outset;
   position: absolute;
   left: 200px;
+  float: right;
 }
+
+
+
 
 .signup { 
  float: right;
@@ -283,8 +434,11 @@ select {
 
       }
 
-     } 
+  }
+
+      
 /*
+
 #social {
   
   display: inline-block;

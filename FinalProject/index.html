@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		
     	<meta charset="utf-8">
     	<meta name="description" content="Three hours to get ready every day? Ain't nobody got time for that">
 
@@ -13,7 +13,7 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript" src="script.js"></script>
+		
 	</head>
 	<body>
 			
@@ -21,13 +21,13 @@
 			
 			<h1>Look, feel, & be amazing</h1>
 
-			<div class="signup">
+<!-- 			<div class="signup">
 				<form>
 					<input type="text" id="email-address" placeholder="Let's talk...">
 					<input type="submit" value="Submit" id="submit-btn">
 				</form>
  			</div>
-
+ -->
 		 	<nav>
 				<div id="Hair"><a href = "hair.html">Hair & Makeup</a></div>
 				<div id="Clothes"><a href="apparel.html">Apparel & Accessories</a></div>
@@ -53,18 +53,22 @@
 					<form id = "styleme">
 		
 		 
-			<select name = "select">
+			<select id = "select" name = "select">
 				<option value="default">I have no time for...</option>
 				<option value="hairmakeup"> Hair & Makeup </option>
 				<option value="apparelaccessories"> Apparel & Accessories </option>
 				<option value="fitnessnutrition"> Fitness & Nutrition </option>
 				<option value="getahead"> Getting Ahead </option>
 			</select>
-		
+
 
 					</form>
 				</div>	
 			</div>
+			<div id = "hairmakeup">You've come to the right place!</div>
+			<div id = "fitnessnutrition">This is a tough one - let's talk about it!</div>
+			<div id = "apparelaccessories">A closet full of things you love is within your reach...</div>
+			<div id = "getahead">A very important conversation - let's get it started.</div>
 		</div>
 		<!-- </div> -->
 
@@ -97,3 +101,6 @@
  		
 
 </html> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
