@@ -166,7 +166,7 @@ top: 60%;
   background-color: #f0efef;
   position: relative;
   padding: 25px 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
 
 }
 /*hair styling*/
